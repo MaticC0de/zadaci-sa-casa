@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*------------------------------ 1 ------------------------------------*/
+
+        function zadnjiKarakteri(string, e) {
+            return string.substr(e);
+        }
+        zadnjiKarakteri('Neki string', -3);
+
+        /*------------------------------ 2 ------------------------------------*/
+        function prviKarakteri(string, p, k) {
+            return string.substr(p, k);
+        }
+        prviKarakteri('neki string', 0, 3);
+
+        /*------------------------------ 3 ------------------------------------*/
+        function karakteriOdDo(tekst, pocetak, kraj) {
+            return tekst.substr(pocetak, kraj);
+        }
+        karakteriOdDo('zamoliti', 2, 7);
+
+        /*------------------------------ 4 ------------------------------------*/
+        function prvoPojavljivanje(tekst, a) {
+            return tekst.indexOf(a += "");
+        }
+        prvoPojavljivanje();
+
+        /*------------------------------ 5 ------------------------------------*/
+
+        function brojPojavljivanje(tekst, slovo) {
+            var ukupno = 0;
+            for (i = 0; i < tekst.length; i++) {
+                if (tekst[i] == slovo) {
+                    ukupno++;
+                }
+            }
+            return "Slovo (" + slovo + ") se pojavljuje " + ukupno + " puta u tekstu " + "'" + tekst + "'";
+        }
+        brojPojavljivanje();
+
+        /*------------------------------ 6 ------------------------------------*/
+            function brojPojavljivanjeZanemariVelicinu(tekst, slovo) {
+                  
+                }
+            
+            brojPojavljivanje();
+
+
+        /*------------------------------ 7 ------------------------------------*/
+        function brojSlovaUStringu() {
+
+        }
+        brojSlovaUStringu();
+
+        /*------------------------------ 8 ------------------------------------*/
+        function zameni(slova) {
+
+        }
+        zameni();
+
+
+        /*------------------------------ 9 ------------------------------------*/
+        function izbrisiRazmake(string) {
+            return string.trim();
+        }
+        izbrisiRazmake("  ovo je tekst sa razmacima  ");
+
+
+
+        /*----------------------------- 10 ------------------------------------*/
+
+    </script>
+</body>
+
+</html>

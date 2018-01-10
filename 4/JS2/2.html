@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="izlaz"></div>
+    <script>
+        function randomBroj() {
+            var broj = Math.floor(Math.random() * 100);
+            if (broj % 2 == 0) {
+                console.log("broj je paran!");
+                return broj;
+            }
+            else {
+                console.log("broj je neparan!");
+                return broj;
+            }
+            
+        }
+        document.getElementById("izlaz").innerHTML += randomBroj();
+
+    </script>
+</body>
+
+</html>
