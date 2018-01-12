@@ -17,5 +17,5 @@ Primer:
 U koliko želimo da nekom kontaktu pošaljemo e-mail, prečica treba da nas odvede na stranicu ili u aplikaciju koju koristimo za slanje mail-ova gde će već biti otvoren novi mail sa adresom korisnika kome šaljemo mail.
 
 Aplikacija bi trebalo da ima i opciju da se kontakti grupišu (family, friends, favorites, work ... )
-Takođe treba da sadrži i opcije edit i delete.
+Takođe treba da sadrži i opcije edit i delete.a
 Kada se klikne na edit aplikacija treba da otvori taj kontakt i omogući nam menjanje podataka.
